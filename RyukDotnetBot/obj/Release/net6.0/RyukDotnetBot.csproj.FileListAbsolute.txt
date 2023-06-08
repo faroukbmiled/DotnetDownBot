@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\RyukDotnetBot.exe
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\RyukDotnetBot.deps.json
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\RyukDotnetBot.runtimeconfig.json
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\RyukDotnetBot.dll
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\RyukDotnetBot.pdb
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\bin\Release\net6.0\WTelegramClient.dll
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.csproj.CopyComplete
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.dll
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\refint\RyukDotnetBot.dll
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.pdb
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\RyukDotnetBot.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\RyukDotnetBot\RyukDotnetBot\obj\Release\net6.0\ref\RyukDotnetBot.dll

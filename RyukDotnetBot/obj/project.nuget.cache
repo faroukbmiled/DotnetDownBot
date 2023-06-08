@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b19FbBgPBKcFo7vohR6tchz/lWE/gYk51LV7lMK60ovH+PPi6aQdUEMAshUv/NxuhrnG2GzDK1zUuoOqJ3wKlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\RyukDotnetBot\\RyukDotnetBot\\RyukDotnetBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\wtelegramclient\\3.5.1\\wtelegramclient.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

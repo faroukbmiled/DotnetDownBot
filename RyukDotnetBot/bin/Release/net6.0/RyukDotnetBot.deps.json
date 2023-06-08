@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RyukDotnetBot/1.0.0": {
+        "dependencies": {
+          "WTelegramClient": "3.5.1"
+        },
+        "runtime": {
+          "RyukDotnetBot.dll": {}
+        }
+      },
+      "WTelegramClient/3.5.1": {
+        "runtime": {
+          "lib/net5.0/WTelegramClient.dll": {
+            "assemblyVersion": "3.5.1.0",
+            "fileVersion": "3.5.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RyukDotnetBot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WTelegramClient/3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/nQbo+9PiTOryCmATx6uxS4nd5ztEQC7wFppE4XIJaDMKCFqQTTdiq1fC6afAati9LffJ96YGESsuGKgVESjVA==",
+      "path": "wtelegramclient/3.5.1",
+      "hashPath": "wtelegramclient.3.5.1.nupkg.sha512"
+    }
+  }
+}
