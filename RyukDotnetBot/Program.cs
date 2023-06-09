@@ -114,6 +114,7 @@ namespace RyukDotNetBot
                 do
                 {
                     int currentLimit = Math.Min(remainingLimit, 100);
+                    List<Task> downloadTasks = new List<Task>();
                     Messages_MessagesBase messages = null;
 
                     if (useOffsetId)
@@ -168,6 +169,7 @@ namespace RyukDotNetBot
                                 using FileStream fileStream = File.Create(filePath);
 
                                 Task downloadTask = _client.DownloadFileAsync(document, fileStream);
+                                downloadTasks.Add(downloadTask);
                                 Console.WriteLine("Downloading file: " + document.Filename);
                                 long previousBytesDownloaded = 0;
                                 Stopwatch speedStopwatch = new Stopwatch();
@@ -203,8 +205,8 @@ namespace RyukDotNetBot
                                 DownloadedFiles += 1;
                             }
                         }
-                        await Task.Delay(100);
                     }
+                    await Task.WhenAll(downloadTasks);
 
                     remainingLimit -= currentLimit;
 
@@ -262,6 +264,7 @@ namespace RyukDotNetBot
                         do
                         {
                             int currentLimit = Math.Min(remainingLimit, 100);
+                            List<Task> downloadTasks = new List<Task>();
                             Messages_MessagesBase messages = null;
 
                             if (useOffsetId)
@@ -316,6 +319,7 @@ namespace RyukDotNetBot
                                         using FileStream fileStream = File.Create(filePath);
 
                                         Task downloadTask = _client.DownloadFileAsync(document, fileStream);
+                                        downloadTasks.Add(downloadTask);
                                         Console.WriteLine("Downloading file: " + document.Filename);
                                         long previousBytesDownloaded = 0;
                                         Stopwatch speedStopwatch = new Stopwatch();
@@ -351,8 +355,8 @@ namespace RyukDotNetBot
                                         DownloadedFiles += 1;
                                     }
                                 }
-                                await Task.Delay(100);
                             }
+                            await Task.WhenAll(downloadTasks);
 
                             remainingLimit -= currentLimit;
 
@@ -415,5 +419,6 @@ namespace RyukDotNetBot
 
             return $"{size:0.##} {units[unitIndex]}";
         }
+
     }
 }
